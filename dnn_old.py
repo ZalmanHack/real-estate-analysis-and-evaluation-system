@@ -185,7 +185,6 @@ def main():
     x_range = [X_test.min(axis=0)[0], X_test.max(axis=0)[0]]
     y_range = [X_test.min(axis=0)[1], X_test.max(axis=0)[1]]
     print(x_range, y_range)
-    # return 0
     # создаем матрицу с координатами в ячейках
     resolution = 500
     xy_matrix = create_test_matrix(x_range, y_range, resolution)
